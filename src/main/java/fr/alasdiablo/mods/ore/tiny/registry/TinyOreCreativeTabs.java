@@ -2,7 +2,6 @@ package fr.alasdiablo.mods.ore.tiny.registry;
 
 import fr.alasdiablo.mods.lib.api.item.GroundCreativeModeTab;
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
-import fr.alasdiablo.mods.resources.registry.ExtendedResourcesItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,8 +20,8 @@ public class TinyOreCreativeTabs {
         CreativeModeTab.Builder builder = CreativeModeTab.builder();
         GroundCreativeModeTab.createBaseBuilder(builder);
         builder.title(Component.translatable("item_group." + TinyOre.MOD_ID + ".tab"));
-        builder.icon(() -> new ItemStack(ExtendedResourcesItems.DIAMOND_NUGGET.get()));
-        builder.displayItems(ExtendedResourcesItems::displayItemsGenerator);
+        builder.icon(() -> new ItemStack(TinyOreBlocks.DEEPSLATE_TINY_DIAMOND_ORE.get()));
+        builder.displayItems(TinyOreBlocks::displayItemsGenerator);
         return builder.build();
     });
 

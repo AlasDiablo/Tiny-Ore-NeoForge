@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dio_tiny_ore:block/tiny_emerald_ore"
+    }
+  }
+}
