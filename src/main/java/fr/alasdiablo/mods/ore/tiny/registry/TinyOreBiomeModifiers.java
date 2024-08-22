@@ -1,7 +1,6 @@
 package fr.alasdiablo.mods.ore.tiny.registry;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
-import net.minecraft.core.registries.Registries;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.world.BiomeModifier;
 import net.neoforged.neoforge.registries.DeferredRegister;

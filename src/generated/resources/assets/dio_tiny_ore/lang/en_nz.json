@@ -1,0 +1,19 @@
+{
+  "block.dio_tiny_ore.deepslate_tiny_coal_ore": "Deepslate Tiny Coal Ore",
+  "block.dio_tiny_ore.deepslate_tiny_copper_ore": "Deepslate Tiny Copper Ore",
+  "block.dio_tiny_ore.deepslate_tiny_diamond_ore": "Deepslate Tiny Diamond Ore",
+  "block.dio_tiny_ore.deepslate_tiny_emerald_ore": "Deepslate Tiny Emerald Ore",
+  "block.dio_tiny_ore.deepslate_tiny_gold_ore": "Deepslate Tiny Gold Ore",
+  "block.dio_tiny_ore.deepslate_tiny_iron_ore": "Deepslate Tiny Iron Ore",
+  "block.dio_tiny_ore.deepslate_tiny_lapis_ore": "Deepslate Tiny Lapis Lazuli Ore",
+  "block.dio_tiny_ore.deepslate_tiny_redstone_ore": "Deepslate Tiny Redstone Ore",
+  "block.dio_tiny_ore.tiny_coal_ore": "Tiny Coal Ore",
+  "block.dio_tiny_ore.tiny_copper_ore": "Tiny Copper Ore",
+  "block.dio_tiny_ore.tiny_diamond_ore": "Tiny Diamond Ore",
+  "block.dio_tiny_ore.tiny_emerald_ore": "Tiny Emerald Ore",
+  "block.dio_tiny_ore.tiny_gold_ore": "Tiny Gold Ore",
+  "block.dio_tiny_ore.tiny_iron_ore": "Tiny Iron Ore",
+  "block.dio_tiny_ore.tiny_lapis_ore": "Tiny Lapis Lazuli Ore",
+  "block.dio_tiny_ore.tiny_redstone_ore": "Tiny Redstone Ore",
+  "item_group.dio_tiny_ore.tab": "Dio's Tiny Ore"
+}

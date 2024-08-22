@@ -20,12 +20,12 @@ public class TinyRedStoneOreBlock extends RedStoneOreBlock {
 
     public TinyRedStoneOreBlock(IntProvider xpRange) {
         super(BlockBehaviour.Properties.of()
-                .mapColor(MapColor.STONE)
-                .instrument(NoteBlockInstrument.BASEDRUM)
-                .requiresCorrectToolForDrops()
-                .randomTicks()
-                .lightLevel(value -> value.getValue(BlockStateProperties.LIT) ? 9 : 0)
-                .strength(3.0F, 3.0F));
+                      .mapColor(MapColor.STONE)
+                      .instrument(NoteBlockInstrument.BASEDRUM)
+                      .requiresCorrectToolForDrops()
+                      .randomTicks()
+                      .lightLevel(value -> value.getValue(BlockStateProperties.LIT) ? 9 : 0)
+                      .strength(3.0F, 3.0F));
 
         this.xpRange = xpRange;
     }

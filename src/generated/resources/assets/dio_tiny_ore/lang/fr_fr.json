@@ -1,0 +1,19 @@
+{
+  "block.dio_tiny_ore.deepslate_tiny_coal_ore": "Minerai de charbon minuscule des abîmes",
+  "block.dio_tiny_ore.deepslate_tiny_copper_ore": "Minerai de cuivre minuscule des abîmes",
+  "block.dio_tiny_ore.deepslate_tiny_diamond_ore": "Minerai de diamant minuscule des abîmes",
+  "block.dio_tiny_ore.deepslate_tiny_emerald_ore": "Minerai d'émeraude minuscule des abîmes",
+  "block.dio_tiny_ore.deepslate_tiny_gold_ore": "Minerai d'or minuscule des abîmes",
+  "block.dio_tiny_ore.deepslate_tiny_iron_ore": "Minerai de fer minuscule des abîmes",
+  "block.dio_tiny_ore.deepslate_tiny_lapis_ore": "Minerai de lapis-lazuli minuscule des abîmes",
+  "block.dio_tiny_ore.deepslate_tiny_redstone_ore": "Minerai de redstone minuscule des abîmes",
+  "block.dio_tiny_ore.tiny_coal_ore": "Minerai de charbon minuscule",
+  "block.dio_tiny_ore.tiny_copper_ore": "Minerai de cuivre minuscule",
+  "block.dio_tiny_ore.tiny_diamond_ore": "Minerai de diamant minuscule",
+  "block.dio_tiny_ore.tiny_emerald_ore": "Minerai d'émeraude minuscule",
+  "block.dio_tiny_ore.tiny_gold_ore": "Minerai d'or minuscule",
+  "block.dio_tiny_ore.tiny_iron_ore": "Minerai de fer minuscule",
+  "block.dio_tiny_ore.tiny_lapis_ore": "Minerai de lapis-lazuli minuscule",
+  "block.dio_tiny_ore.tiny_redstone_ore": "Minerai de redstone minuscule",
+  "item_group.dio_tiny_ore.tab": "Dio's Tiny Ore"
+}

@@ -1,0 +1,11 @@
+// 1.21.1	2024-08-22T19:22:15.4432137	Tags for minecraft:block mod id dio_tiny_ore
+655b26e16fe2883ab3daaa1b5c6d69241efc7dc2 data/c/tags/block/ores.json
+b7d57706bb7f0f1a8e205647da078b328f94db7d data/c/tags/block/ores/tiny.json
+5d2e31b96fa133b32c6243a4cfdfd6d7b6cae697 data/c/tags/block/ores/tiny/coal.json
+9a6cd3559abf78e26e2a7ecba526e1824a67b0a2 data/c/tags/block/ores/tiny/copper.json
+85a2431d791bed07b4cfdef4f9b140ffc91c4ce9 data/c/tags/block/ores/tiny/diamond.json
+2cdddf57f2e9984b250bcf9d0df16a3f39abe30f data/c/tags/block/ores/tiny/emerald.json
+0f31cdef05bc7b0f097d88e9d73ea35f7ac397a5 data/c/tags/block/ores/tiny/gold.json
+a8be22318e73baf0ed34b5d1889070b77c4caed2 data/c/tags/block/ores/tiny/iron.json
+3d052ad2e83aa7006348b7fb3bf0c042f351546e data/c/tags/block/ores/tiny/lapis.json
+5f085709fee42bb015f5bb0371a307695b401098 data/c/tags/block/ores/tiny/redstone.json

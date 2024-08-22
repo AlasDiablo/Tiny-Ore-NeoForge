@@ -1,0 +1,45 @@
+package fr.alasdiablo.mods.ore.tiny.data;
+
+import fr.alasdiablo.mods.ore.tiny.TinyOre;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.data.PackOutput;
+import net.neoforged.neoforge.common.Tags;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
+
+import javax.annotation.Nullable;
+import java.util.concurrent.CompletableFuture;
+
+import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.*;
+import static fr.alasdiablo.mods.ore.tiny.tag.TinyOreTags.Blocks.*;
+
+@SuppressWarnings("unchecked")
+public class BlocksTagsProvider extends BlockTagsProvider {
+
+    public BlocksTagsProvider(
+            PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
+            @Nullable ExistingFileHelper existingFileHelper
+    ) {
+        super(output, lookupProvider, TinyOre.MOD_ID, existingFileHelper);
+    }
+
+    @Override
+    protected void addTags(@NotNull HolderLookup.Provider pProvider) {
+        this.tag(ORES_TINY_COAL).add(TINY_COAL_ORE.get(), DEEPSLATE_TINY_COAL_ORE.get());
+        this.tag(ORES_TINY_COPPER).add(TINY_COPPER_ORE.get(), DEEPSLATE_TINY_COPPER_ORE.get());
+        this.tag(ORES_TINY_DIAMOND).add(TINY_DIAMOND_ORE.get(), DEEPSLATE_TINY_DIAMOND_ORE.get());
+        this.tag(ORES_TINY_EMERALD).add(TINY_EMERALD_ORE.get(), DEEPSLATE_TINY_EMERALD_ORE.get());
+        this.tag(ORES_TINY_GOLD).add(TINY_GOLD_ORE.get(), DEEPSLATE_TINY_GOLD_ORE.get());
+        this.tag(ORES_TINY_IRON).add(TINY_IRON_ORE.get(), DEEPSLATE_TINY_IRON_ORE.get());
+        this.tag(ORES_TINY_LAPIS).add(TINY_LAPIS_ORE.get(), DEEPSLATE_TINY_LAPIS_ORE.get());
+        this.tag(ORES_TINY_REDSTONE).add(TINY_REDSTONE_ORE.get(), DEEPSLATE_TINY_REDSTONE_ORE.get());
+
+        this.tag(ORES_TINY).addTags(
+                ORES_TINY_COAL, ORES_TINY_COPPER, ORES_TINY_DIAMOND, ORES_TINY_EMERALD,
+                ORES_TINY_GOLD, ORES_TINY_IRON, ORES_TINY_LAPIS, ORES_TINY_REDSTONE
+        );
+
+        this.tag(Tags.Blocks.ORES).addTag(ORES_TINY);
+    }
+}

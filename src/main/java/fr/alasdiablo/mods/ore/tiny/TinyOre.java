@@ -2,6 +2,9 @@ package fr.alasdiablo.mods.ore.tiny;
 
 import com.mojang.logging.LogUtils;
 import fr.alasdiablo.mods.ore.tiny.data.BlockStatesProvider;
+import fr.alasdiablo.mods.ore.tiny.data.BlocksTagsProvider;
+import fr.alasdiablo.mods.ore.tiny.data.ItemsTagsProvider;
+import fr.alasdiablo.mods.ore.tiny.data.LanguagesProvider;
 import fr.alasdiablo.mods.ore.tiny.registry.*;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -33,27 +36,32 @@ public class TinyOre {
 
     private void gatherData(@NotNull GatherDataEvent event) {
         TinyOre.LOGGER.debug("Start data generator");
-        final DataGenerator generator = event.getGenerator();
-        final PackOutput output = generator.getPackOutput();
-        final CompletableFuture<HolderLookup.Provider> lookup = event.getLookupProvider();
-        final ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
+        final DataGenerator                            generator          = event.getGenerator();
+        final PackOutput                               output             = generator.getPackOutput();
+        final CompletableFuture<HolderLookup.Provider> lookup             = event.getLookupProvider();
+        final ExistingFileHelper                       existingFileHelper = event.getExistingFileHelper();
 
         TinyOre.LOGGER.debug("Add Client Provider");
 
         TinyOre.LOGGER.debug("Add Block State Provider");
         generator.addProvider(event.includeClient(), new BlockStatesProvider(output, existingFileHelper));
 
-        // TinyOre.LOGGER.debug("Add Language Provider");
-        // generator.addProvider(event.includeClient(), new LanguagesProvider.EnglishUnitedKingdom(output));
-        // generator.addProvider(event.includeClient(), new LanguagesProvider.FrenchFrance(output));
-        // generator.addProvider(event.includeClient(), new LanguagesProvider.EnglishUnitedStates(output));
+        TinyOre.LOGGER.debug("Add Language Provider");
+        generator.addProvider(event.includeClient(), new LanguagesProvider.French.Canada(output));
+        generator.addProvider(event.includeClient(), new LanguagesProvider.French.France(output));
 
-//        TinyOre.LOGGER.debug("Add Server Provider");
-//
-//        TinyOre.LOGGER.debug("Add Tags Provider");
-//        final BlocksTagsProvider blockTagsProvider = new BlocksTagsProvider(output, lookup, existingFileHelper);
-//        generator.addProvider(event.includeServer(), blockTagsProvider);
-//        generator.addProvider(event.includeServer(), new ItemsTagsProvider(output, lookup, blockTagsProvider, existingFileHelper));
+        generator.addProvider(event.includeClient(), new LanguagesProvider.English.Australia(output));
+        generator.addProvider(event.includeClient(), new LanguagesProvider.English.Canada(output));
+        generator.addProvider(event.includeClient(), new LanguagesProvider.English.NewZealand(output));
+        generator.addProvider(event.includeClient(), new LanguagesProvider.English.UnitedKingdom(output));
+        generator.addProvider(event.includeClient(), new LanguagesProvider.English.UnitedStates(output));
+
+        TinyOre.LOGGER.debug("Add Server Provider");
+
+        TinyOre.LOGGER.debug("Add Tags Provider");
+        final BlocksTagsProvider blockTagsProvider = new BlocksTagsProvider(output, lookup, existingFileHelper);
+        generator.addProvider(event.includeServer(), blockTagsProvider);
+        generator.addProvider(event.includeServer(), new ItemsTagsProvider(output, lookup, blockTagsProvider, existingFileHelper));
 //
 //        TinyOre.LOGGER.debug("Add Recipes Provider");
 //        generator.addProvider(event.includeServer(), new RecipesProvider(output, lookup));
