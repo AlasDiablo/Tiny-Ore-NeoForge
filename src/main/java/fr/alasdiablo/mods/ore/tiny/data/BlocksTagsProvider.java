@@ -3,6 +3,7 @@ package fr.alasdiablo.mods.ore.tiny.data;
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.tags.BlockTags;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -41,5 +42,29 @@ public class BlocksTagsProvider extends BlockTagsProvider {
         );
 
         this.tag(Tags.Blocks.ORES).addTag(ORES_TINY);
+
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(
+                TINY_COAL_ORE.get(), DEEPSLATE_TINY_COAL_ORE.get(),
+                TINY_COPPER_ORE.get(), DEEPSLATE_TINY_COPPER_ORE.get(),
+                TINY_DIAMOND_ORE.get(), DEEPSLATE_TINY_DIAMOND_ORE.get(),
+                TINY_EMERALD_ORE.get(), DEEPSLATE_TINY_EMERALD_ORE.get(),
+                TINY_GOLD_ORE.get(), DEEPSLATE_TINY_GOLD_ORE.get(),
+                TINY_IRON_ORE.get(), DEEPSLATE_TINY_IRON_ORE.get(),
+                TINY_LAPIS_ORE.get(), DEEPSLATE_TINY_LAPIS_ORE.get(),
+                TINY_REDSTONE_ORE.get(), DEEPSLATE_TINY_REDSTONE_ORE.get()
+        );
+
+        this.tag(BlockTags.NEEDS_STONE_TOOL).add(
+                TINY_COPPER_ORE.get(), DEEPSLATE_TINY_COPPER_ORE.get(),
+                TINY_IRON_ORE.get(), DEEPSLATE_TINY_IRON_ORE.get(),
+                TINY_LAPIS_ORE.get(), DEEPSLATE_TINY_LAPIS_ORE.get()
+        );
+
+        this.tag(BlockTags.NEEDS_IRON_TOOL).add(
+                TINY_DIAMOND_ORE.get(), DEEPSLATE_TINY_DIAMOND_ORE.get(),
+                TINY_EMERALD_ORE.get(), DEEPSLATE_TINY_EMERALD_ORE.get(),
+                TINY_GOLD_ORE.get(), DEEPSLATE_TINY_GOLD_ORE.get(),
+                TINY_REDSTONE_ORE.get(), DEEPSLATE_TINY_REDSTONE_ORE.get()
+        );
     }
 }

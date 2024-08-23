@@ -61,10 +61,10 @@ public class TinyOre {
         TinyOre.LOGGER.debug("Add Datapack Provider");
         generator.addProvider(event.includeServer(), new DatapackEntriesProvider(output, lookup));
 
-//        TinyOre.LOGGER.debug("Add Recipes Provider");
-//        generator.addProvider(event.includeServer(), new RecipesProvider(output, lookup));
-//
-//        TinyOre.LOGGER.debug("Add DataMap Provider");
-//        generator.addProvider(event.includeServer(), new DataMapsProvider(output, lookup));
+        TinyOre.LOGGER.debug("Add Loot Table Provider");
+        generator.addProvider(event.includeServer(), new LootTablesProvider(output, lookup));
+
+        TinyOre.LOGGER.debug("Add Recipes Provider");
+        generator.addProvider(event.includeServer(), new RecipesProvider(output, lookup));
     }
 }

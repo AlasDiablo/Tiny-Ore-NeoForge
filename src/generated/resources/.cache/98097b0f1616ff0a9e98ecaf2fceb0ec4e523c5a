@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-22T19:22:15.4432137	Tags for minecraft:block mod id dio_tiny_ore
+// 1.21.1	2024-08-23T13:55:15.4723043	Tags for minecraft:block mod id dio_tiny_ore
 655b26e16fe2883ab3daaa1b5c6d69241efc7dc2 data/c/tags/block/ores.json
 b7d57706bb7f0f1a8e205647da078b328f94db7d data/c/tags/block/ores/tiny.json
 5d2e31b96fa133b32c6243a4cfdfd6d7b6cae697 data/c/tags/block/ores/tiny/coal.json
@@ -9,3 +9,6 @@ b7d57706bb7f0f1a8e205647da078b328f94db7d data/c/tags/block/ores/tiny.json
 a8be22318e73baf0ed34b5d1889070b77c4caed2 data/c/tags/block/ores/tiny/iron.json
 3d052ad2e83aa7006348b7fb3bf0c042f351546e data/c/tags/block/ores/tiny/lapis.json
 5f085709fee42bb015f5bb0371a307695b401098 data/c/tags/block/ores/tiny/redstone.json
+b813f650848f41bf5040ef4c6649d1c379d31674 data/minecraft/tags/block/mineable/pickaxe.json
+53e20fb1977de733e6b7fe8f0c2ecf36a3b1447a data/minecraft/tags/block/needs_iron_tool.json
+eeb062795fc5dc98e5e08c39efb20b4556d909c8 data/minecraft/tags/block/needs_stone_tool.json

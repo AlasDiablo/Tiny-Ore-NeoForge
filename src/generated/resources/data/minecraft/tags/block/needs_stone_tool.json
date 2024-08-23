@@ -1,0 +1,10 @@
+{
+  "values": [
+    "dio_tiny_ore:tiny_copper_ore",
+    "dio_tiny_ore:deepslate_tiny_copper_ore",
+    "dio_tiny_ore:tiny_iron_ore",
+    "dio_tiny_ore:deepslate_tiny_iron_ore",
+    "dio_tiny_ore:tiny_lapis_ore",
+    "dio_tiny_ore:deepslate_tiny_lapis_ore"
+  ]
+}

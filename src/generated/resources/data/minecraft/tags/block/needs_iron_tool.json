@@ -1,0 +1,12 @@
+{
+  "values": [
+    "dio_tiny_ore:tiny_diamond_ore",
+    "dio_tiny_ore:deepslate_tiny_diamond_ore",
+    "dio_tiny_ore:tiny_emerald_ore",
+    "dio_tiny_ore:deepslate_tiny_emerald_ore",
+    "dio_tiny_ore:tiny_gold_ore",
+    "dio_tiny_ore:deepslate_tiny_gold_ore",
+    "dio_tiny_ore:tiny_redstone_ore",
+    "dio_tiny_ore:deepslate_tiny_redstone_ore"
+  ]
+}

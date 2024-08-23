@@ -132,7 +132,8 @@ dependencies {
 
     implementation("curse.maven:diabololib-422014:5546429")
 
-    implementation(files("libs/dio_extended_resources-1.0.0.jar"))
+    compileOnly fileTree(dir:'libs', include:'*.jar')
+    runtimeOnly fileTree(dir:'libs', include:'*.jar')
 
     // compile against the JEI API but do not include it at runtime
     compileOnly("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")

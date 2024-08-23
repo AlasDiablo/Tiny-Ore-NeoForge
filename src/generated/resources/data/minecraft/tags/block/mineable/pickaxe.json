@@ -1,0 +1,20 @@
+{
+  "values": [
+    "dio_tiny_ore:tiny_coal_ore",
+    "dio_tiny_ore:deepslate_tiny_coal_ore",
+    "dio_tiny_ore:tiny_copper_ore",
+    "dio_tiny_ore:deepslate_tiny_copper_ore",
+    "dio_tiny_ore:tiny_diamond_ore",
+    "dio_tiny_ore:deepslate_tiny_diamond_ore",
+    "dio_tiny_ore:tiny_emerald_ore",
+    "dio_tiny_ore:deepslate_tiny_emerald_ore",
+    "dio_tiny_ore:tiny_gold_ore",
+    "dio_tiny_ore:deepslate_tiny_gold_ore",
+    "dio_tiny_ore:tiny_iron_ore",
+    "dio_tiny_ore:deepslate_tiny_iron_ore",
+    "dio_tiny_ore:tiny_lapis_ore",
+    "dio_tiny_ore:deepslate_tiny_lapis_ore",
+    "dio_tiny_ore:tiny_redstone_ore",
+    "dio_tiny_ore:deepslate_tiny_redstone_ore"
+  ]
+}
