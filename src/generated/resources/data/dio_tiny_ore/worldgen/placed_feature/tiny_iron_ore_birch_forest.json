@@ -1,9 +1,9 @@
 {
-  "feature": "dio_tiny_ore:tiny_redstone_ore_extra",
+  "feature": "dio_tiny_ore:tiny_iron_ore_extra",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 12
+      "count": 16
     },
     {
       "type": "minecraft:in_square"
@@ -13,7 +13,7 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 42
+          "absolute": 52
         },
         "min_inclusive": {
           "absolute": -38

@@ -16,6 +16,7 @@ import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.world.BiomeModifier;
 import net.neoforged.neoforge.common.world.BiomeModifiers;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 public class BiomesModifiers {
@@ -40,7 +41,8 @@ public class BiomesModifiers {
     public static final ResourceKey<BiomeModifier> ORE_TINY_LAPIS_TAIGA       = register(TinyOreRegistries.TINY_LAPIS_ORE + "_taiga");
     public static final ResourceKey<BiomeModifier> ORE_TINY_REDSTONE_SWAMP    = register(TinyOreRegistries.TINY_REDSTONE_ORE + "_swap");
 
-    private static BiomeModifiers.AddFeaturesBiomeModifier createBiomeModifier(HolderSet<Biome> biomes, HolderSet<PlacedFeature> features) {
+    @Contract(value = "_, _ -> new", pure = true)
+    private static BiomeModifiers.@NotNull AddFeaturesBiomeModifier createBiomeModifier(HolderSet<Biome> biomes, HolderSet<PlacedFeature> features) {
         return new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes,
                 features,
@@ -122,11 +124,11 @@ public class BiomesModifiers {
 
         context.register(ORE_TINY_IRON_MOUNTAIN, createBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_MOUNTAIN),
-                HolderSet.direct(placedFeatures.getOrThrow(PlacedFeatures.ORE_TINY_IRON_EXTRA))
+                HolderSet.direct(placedFeatures.getOrThrow(PlacedFeatures.ORE_TINY_IRON_MOUNTAIN))
         ));
         context.register(ORE_TINY_IRON_BIRCH_FOREST, createBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_BIRCH_FOREST),
-                HolderSet.direct(placedFeatures.getOrThrow(PlacedFeatures.ORE_TINY_IRON_EXTRA))
+                HolderSet.direct(placedFeatures.getOrThrow(PlacedFeatures.ORE_TINY_IRON_BIRCH_FOREST))
         ));
 
 

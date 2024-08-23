@@ -31,7 +31,8 @@ public class PlacedFeatures {
     public static final ResourceKey<PlacedFeature> ORE_TINY_DIAMOND_EXTRA  = register(TinyOreRegistries.TINY_DIAMOND_ORE + "_extra");
     public static final ResourceKey<PlacedFeature> ORE_TINY_EMERALD_EXTRA  = register(TinyOreRegistries.TINY_EMERALD_ORE + "_extra");
     public static final ResourceKey<PlacedFeature> ORE_TINY_GOLD_EXTRA     = register(TinyOreRegistries.TINY_GOLD_ORE + "_extra");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_IRON_EXTRA     = register(TinyOreRegistries.TINY_IRON_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_IRON_MOUNTAIN     = register(TinyOreRegistries.TINY_IRON_ORE + "_mountain");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_IRON_BIRCH_FOREST     = register(TinyOreRegistries.TINY_IRON_ORE + "_birch_forest");
     public static final ResourceKey<PlacedFeature> ORE_TINY_LAPIS_EXTRA    = register(TinyOreRegistries.TINY_LAPIS_ORE + "_extra");
     public static final ResourceKey<PlacedFeature> ORE_TINY_REDSTONE_EXTRA = register(TinyOreRegistries.TINY_REDSTONE_ORE + "_extra");
 
@@ -99,7 +100,7 @@ public class PlacedFeatures {
                         configuredFeatures.getOrThrow(ConfiguredFeatures.ORE_TINY_EMERALD_EXTRA),
                         8,
                         VerticalAnchor.BOTTOM,
-                        VerticalAnchor.absolute(24)
+                        VerticalAnchor.absolute(127)
                 )
         );
         context.register(
@@ -107,16 +108,25 @@ public class PlacedFeatures {
                 createExtraPlacedFeature(
                         configuredFeatures.getOrThrow(ConfiguredFeatures.ORE_TINY_GOLD_EXTRA),
                         20,
-                        VerticalAnchor.absolute(-28),
-                        VerticalAnchor.absolute(32)
+                        VerticalAnchor.absolute(-48),
+                        VerticalAnchor.absolute(127)
                 )
         );
         context.register(
-                ORE_TINY_IRON_EXTRA,
+                ORE_TINY_IRON_MOUNTAIN,
                 createExtraPlacedFeature(
                         configuredFeatures.getOrThrow(ConfiguredFeatures.ORE_TINY_IRON_EXTRA),
                         20,
-                        VerticalAnchor.absolute(-12),
+                        VerticalAnchor.absolute(-38),
+                        VerticalAnchor.absolute(127)
+                )
+        );
+        context.register(
+                ORE_TINY_IRON_BIRCH_FOREST,
+                createExtraPlacedFeature(
+                        configuredFeatures.getOrThrow(ConfiguredFeatures.ORE_TINY_IRON_EXTRA),
+                        16,
+                        VerticalAnchor.absolute(-38),
                         VerticalAnchor.absolute(52)
                 )
         );
@@ -125,8 +135,8 @@ public class PlacedFeatures {
                 createExtraPlacedFeature(
                         configuredFeatures.getOrThrow(ConfiguredFeatures.ORE_TINY_LAPIS_EXTRA),
                         12,
-                        VerticalAnchor.absolute(-32),
-                        VerticalAnchor.absolute(32)
+                        VerticalAnchor.absolute(-38),
+                        VerticalAnchor.absolute(38)
                 )
         );
         context.register(
@@ -135,7 +145,7 @@ public class PlacedFeatures {
                         configuredFeatures.getOrThrow(ConfiguredFeatures.ORE_TINY_REDSTONE_EXTRA),
                         12,
                         VerticalAnchor.absolute(-38),
-                        VerticalAnchor.absolute(32)
+                        VerticalAnchor.absolute(42)
                 )
         );
     }
