@@ -24,7 +24,7 @@ public class DeepslateTinyRedStoneOreBlock extends RedStoneOreBlock {
                       .instrument(NoteBlockInstrument.BASEDRUM)
                       .requiresCorrectToolForDrops()
                       .randomTicks()
-                      .lightLevel(value -> value.getValue(BlockStateProperties.LIT) ? 9 : 0)
+                      .lightLevel(value -> value.getValue(BlockStateProperties.LIT) ? 6 : 0)
                       .strength(4.5F, 3.0F)
                       .sound(SoundType.DEEPSLATE));
 

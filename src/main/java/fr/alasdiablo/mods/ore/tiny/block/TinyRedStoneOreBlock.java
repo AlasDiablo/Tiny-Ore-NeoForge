@@ -24,7 +24,7 @@ public class TinyRedStoneOreBlock extends RedStoneOreBlock {
                       .instrument(NoteBlockInstrument.BASEDRUM)
                       .requiresCorrectToolForDrops()
                       .randomTicks()
-                      .lightLevel(value -> value.getValue(BlockStateProperties.LIT) ? 9 : 0)
+                      .lightLevel(value -> value.getValue(BlockStateProperties.LIT) ? 6 : 0)
                       .strength(3.0F, 3.0F));
 
         this.xpRange = xpRange;
