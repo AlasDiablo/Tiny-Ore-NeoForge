@@ -1,9 +1,9 @@
 package fr.alasdiablo.mods.ore.tiny.data;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
-import fr.alasdiablo.mods.ore.tiny.data.datapack.BiomesModifiers;
-import fr.alasdiablo.mods.ore.tiny.data.datapack.ConfiguredFeatures;
-import fr.alasdiablo.mods.ore.tiny.data.datapack.PlacedFeatures;
+import fr.alasdiablo.mods.ore.tiny.data.feature.BiomesModifiers;
+import fr.alasdiablo.mods.ore.tiny.data.feature.ConfiguredFeatures;
+import fr.alasdiablo.mods.ore.tiny.data.feature.PlacedFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;

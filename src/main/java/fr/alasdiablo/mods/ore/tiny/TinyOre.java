@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import fr.alasdiablo.mods.ore.tiny.data.*;
 import fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks;
 import fr.alasdiablo.mods.ore.tiny.registry.TinyOreCreativeTabs;
+import fr.alasdiablo.mods.ore.tiny.tag.TinyOreTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -23,6 +24,9 @@ public class TinyOre {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public TinyOre(IEventBus modEventBus, ModContainer modContainer) {
+        TinyOreTags.Items.init();
+        TinyOreTags.Blocks.init();
+
         TinyOreBlocks.init(modEventBus);
         TinyOreCreativeTabs.init(modEventBus);
 
