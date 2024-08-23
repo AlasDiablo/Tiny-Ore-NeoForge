@@ -1,11 +1,9 @@
 package fr.alasdiablo.mods.ore.tiny;
 
 import com.mojang.logging.LogUtils;
-import fr.alasdiablo.mods.ore.tiny.data.BlockStatesProvider;
-import fr.alasdiablo.mods.ore.tiny.data.BlocksTagsProvider;
-import fr.alasdiablo.mods.ore.tiny.data.ItemsTagsProvider;
-import fr.alasdiablo.mods.ore.tiny.data.LanguagesProvider;
-import fr.alasdiablo.mods.ore.tiny.registry.*;
+import fr.alasdiablo.mods.ore.tiny.data.*;
+import fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks;
+import fr.alasdiablo.mods.ore.tiny.registry.TinyOreCreativeTabs;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -26,9 +24,6 @@ public class TinyOre {
 
     public TinyOre(IEventBus modEventBus, ModContainer modContainer) {
         TinyOreBlocks.init(modEventBus);
-        TinyOreConfiguredFeatures.init(modEventBus);
-        TinyOrePlacedFeatures.init(modEventBus);
-        TinyOreBiomeModifiers.init(modEventBus);
         TinyOreCreativeTabs.init(modEventBus);
 
         modEventBus.addListener(this::gatherData);
@@ -62,7 +57,10 @@ public class TinyOre {
         final BlocksTagsProvider blockTagsProvider = new BlocksTagsProvider(output, lookup, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new ItemsTagsProvider(output, lookup, blockTagsProvider, existingFileHelper));
-//
+
+        TinyOre.LOGGER.debug("Add Datapack Provider");
+        generator.addProvider(event.includeServer(), new DatapackEntriesProvider(output, lookup));
+
 //        TinyOre.LOGGER.debug("Add Recipes Provider");
 //        generator.addProvider(event.includeServer(), new RecipesProvider(output, lookup));
 //

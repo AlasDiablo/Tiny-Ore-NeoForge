@@ -5,7 +5,6 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
 import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.*;
-import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.DEEPSLATE_TINY_REDSTONE_ORE;
 
 public class LanguagesProvider {
     private static class Global extends LanguageProvider {

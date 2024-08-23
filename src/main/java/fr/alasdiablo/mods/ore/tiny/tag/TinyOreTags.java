@@ -14,14 +14,14 @@ public class TinyOreTags {
 
         public static final TagKey<Item> ORES_TINY = commonTag("ores/tiny");
 
-        public static final TagKey<Item> ORES_TINY_COAL   = commonTag("ores/tiny/coal");
-        public static final TagKey<Item> ORES_TINY_COPPER = commonTag("ores/tiny/copper");
-        public static final TagKey<Item> ORES_TINY_DIAMOND = commonTag("ores/tiny/diamond");
-        public static final TagKey<Item> ORES_TINY_EMERALD = commonTag("ores/tiny/emerald");
-        public static final TagKey<Item> ORES_TINY_GOLD    = commonTag("ores/tiny/gold");
-        public static final TagKey<Item> ORES_TINY_IRON    = commonTag("ores/tiny/iron");
-        public static final TagKey<Item> ORES_TINY_LAPIS   = commonTag("ores/tiny/lapis");
-        public static final TagKey<Item> ORES_TINY_REDSTONE   = commonTag("ores/tiny/redstone");
+        public static final TagKey<Item> ORES_TINY_COAL     = commonTag("ores/tiny/coal");
+        public static final TagKey<Item> ORES_TINY_COPPER   = commonTag("ores/tiny/copper");
+        public static final TagKey<Item> ORES_TINY_DIAMOND  = commonTag("ores/tiny/diamond");
+        public static final TagKey<Item> ORES_TINY_EMERALD  = commonTag("ores/tiny/emerald");
+        public static final TagKey<Item> ORES_TINY_GOLD     = commonTag("ores/tiny/gold");
+        public static final TagKey<Item> ORES_TINY_IRON     = commonTag("ores/tiny/iron");
+        public static final TagKey<Item> ORES_TINY_LAPIS    = commonTag("ores/tiny/lapis");
+        public static final TagKey<Item> ORES_TINY_REDSTONE = commonTag("ores/tiny/redstone");
 
 
         private static @NotNull TagKey<Item> commonTag(String name) {
@@ -34,14 +34,14 @@ public class TinyOreTags {
 
         public static final TagKey<Block> ORES_TINY = commonTag("ores/tiny");
 
-        public static final TagKey<Block> ORES_TINY_COAL   = commonTag("ores/tiny/coal");
-        public static final TagKey<Block> ORES_TINY_COPPER = commonTag("ores/tiny/copper");
-        public static final TagKey<Block> ORES_TINY_DIAMOND = commonTag("ores/tiny/diamond");
-        public static final TagKey<Block> ORES_TINY_EMERALD = commonTag("ores/tiny/emerald");
-        public static final TagKey<Block> ORES_TINY_GOLD    = commonTag("ores/tiny/gold");
-        public static final TagKey<Block> ORES_TINY_IRON    = commonTag("ores/tiny/iron");
-        public static final TagKey<Block> ORES_TINY_LAPIS   = commonTag("ores/tiny/lapis");
-        public static final TagKey<Block> ORES_TINY_REDSTONE   = commonTag("ores/tiny/redstone");
+        public static final TagKey<Block> ORES_TINY_COAL     = commonTag("ores/tiny/coal");
+        public static final TagKey<Block> ORES_TINY_COPPER   = commonTag("ores/tiny/copper");
+        public static final TagKey<Block> ORES_TINY_DIAMOND  = commonTag("ores/tiny/diamond");
+        public static final TagKey<Block> ORES_TINY_EMERALD  = commonTag("ores/tiny/emerald");
+        public static final TagKey<Block> ORES_TINY_GOLD     = commonTag("ores/tiny/gold");
+        public static final TagKey<Block> ORES_TINY_IRON     = commonTag("ores/tiny/iron");
+        public static final TagKey<Block> ORES_TINY_LAPIS    = commonTag("ores/tiny/lapis");
+        public static final TagKey<Block> ORES_TINY_REDSTONE = commonTag("ores/tiny/redstone");
 
 
         private static @NotNull TagKey<Block> commonTag(String name) {

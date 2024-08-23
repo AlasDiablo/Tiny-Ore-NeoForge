@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_birch_forest",
+  "features": "dio_tiny_ore:tiny_iron_ore_extra",
+  "step": "underground_ores"
+}

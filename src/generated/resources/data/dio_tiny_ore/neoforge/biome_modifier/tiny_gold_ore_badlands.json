@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_badlands",
+  "features": "dio_tiny_ore:tiny_gold_ore_extra",
+  "step": "underground_ores"
+}

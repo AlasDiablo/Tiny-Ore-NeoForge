@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
 
-public class ItemsTagsProvider  extends ItemTagsProvider {
+public class ItemsTagsProvider extends ItemTagsProvider {
     public ItemsTagsProvider(
             PackOutput output, CompletableFuture<HolderLookup.Provider> lookup,
             @NotNull TagsProvider<Block> blockTagsProvider,

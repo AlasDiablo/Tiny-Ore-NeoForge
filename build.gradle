@@ -128,6 +128,8 @@ configurations {
 }
 
 dependencies {
+    runtimeOnly("curse.maven:world-stripper-250603:5592921")
+
     implementation("curse.maven:diabololib-422014:5546429")
 
     implementation(files("libs/dio_extended_resources-1.0.0.jar"))
