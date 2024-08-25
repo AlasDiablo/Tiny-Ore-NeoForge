@@ -1,15 +1,15 @@
 ## About Dio's Tiny Ore
 
-Dio's Tiny Ore is ore generation mod focused on adding ore in a way to enchante exploration.
+Dio's Tiny Ore is an ore generation mod focused on adding ore to enhance exploration.
 
 ## Getting Started
 
-Dio's Tiny Ore will add a variant of all vanilla ore how drop between 2 and 6 nugget (Non-vanilla nugget added
+Dio's Tiny Ore add a variant of all vanilla ore that drops between two and six nuggets (Non-vanilla nugget added
 by [Dio's Extended Resources](#)).
 
 You can find a small quantity of those in every biome between height -64 and 127.
 
-**To enchante exploration, we have added more ore in some biome:**
+**To enhance exploration, we increase ore generation in some biome:**
 
 - Tiny Coal Ore
 
