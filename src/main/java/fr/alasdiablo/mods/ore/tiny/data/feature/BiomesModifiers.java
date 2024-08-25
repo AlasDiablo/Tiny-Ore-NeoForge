@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BiomeTags;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.neoforged.neoforge.common.Tags;
@@ -39,6 +40,7 @@ public class BiomesModifiers {
     public static final ResourceKey<BiomeModifier> ORE_TINY_IRON_MOUNTAIN     = register(TinyOreRegistries.TINY_IRON_ORE + "_mountain");
     public static final ResourceKey<BiomeModifier> ORE_TINY_IRON_BIRCH_FOREST = register(TinyOreRegistries.TINY_IRON_ORE + "_birch_forest");
     public static final ResourceKey<BiomeModifier> ORE_TINY_LAPIS_TAIGA       = register(TinyOreRegistries.TINY_LAPIS_ORE + "_taiga");
+    public static final ResourceKey<BiomeModifier> ORE_TINY_LAPIS_DARK_FOREST = register(TinyOreRegistries.TINY_LAPIS_ORE + "_dark_forest");
     public static final ResourceKey<BiomeModifier> ORE_TINY_REDSTONE_SWAMP    = register(TinyOreRegistries.TINY_REDSTONE_ORE + "_swap");
 
     @Contract(value = "_, _ -> new", pure = true)
@@ -134,6 +136,10 @@ public class BiomesModifiers {
 
         context.register(ORE_TINY_LAPIS_TAIGA, createBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_TAIGA),
+                HolderSet.direct(placedFeatures.getOrThrow(PlacedFeatures.ORE_TINY_LAPIS_EXTRA))
+        ));
+        context.register(ORE_TINY_LAPIS_DARK_FOREST, createBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(Biomes.DARK_FOREST)),
                 HolderSet.direct(placedFeatures.getOrThrow(PlacedFeatures.ORE_TINY_LAPIS_EXTRA))
         ));
 

@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-23T12:17:29.3887409	Registries
+// 1.21.1	2024-08-25T09:41:25.5002084	Registries
 6ea8e45d582ea8b10a75a2f79a3a2369cdb26f00 data/dio_tiny_ore/neoforge/biome_modifier/tiny_coal_ore.json
 804d33b4507aa165de24066bbf4815aa950a8222 data/dio_tiny_ore/neoforge/biome_modifier/tiny_coal_ore_desert.json
 3d1c0c180f58af978aeae63ffee34c0ca3d2ac0c data/dio_tiny_ore/neoforge/biome_modifier/tiny_coal_ore_savanna.json
@@ -14,6 +14,7 @@ ef89144138e450cd97ebc525f5ec2aeb366cb3f7 data/dio_tiny_ore/neoforge/biome_modifi
 dfb96531ced3ebef84bdab1f7f48259a0594a896 data/dio_tiny_ore/neoforge/biome_modifier/tiny_iron_ore_birch_forest.json
 ac954fc7f2ab64997f974234ccc7e13c86ad2152 data/dio_tiny_ore/neoforge/biome_modifier/tiny_iron_ore_mountain.json
 375e6b960efe77f349834b3367feefda554ba9a5 data/dio_tiny_ore/neoforge/biome_modifier/tiny_lapis_ore.json
+fc19e971a839a297d699e0177797a4f183d46a9f data/dio_tiny_ore/neoforge/biome_modifier/tiny_lapis_ore_dark_forest.json
 bccd1555df46972d3390a621e71038e1affcca62 data/dio_tiny_ore/neoforge/biome_modifier/tiny_lapis_ore_taiga.json
 5ecb4ecd71a7abdcd4c22734a9564d38b6cdfb5c data/dio_tiny_ore/neoforge/biome_modifier/tiny_redstone_ore.json
 c0c6b98f9a6f03298b9c80d2dff9c7aae84b8573 data/dio_tiny_ore/neoforge/biome_modifier/tiny_redstone_ore_swap.json
