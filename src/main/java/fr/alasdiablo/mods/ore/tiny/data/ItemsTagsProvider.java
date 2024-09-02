@@ -34,8 +34,20 @@ public class ItemsTagsProvider extends ItemTagsProvider {
         this.copy(TinyOreTags.Blocks.ORES_TINY_LAPIS, TinyOreTags.Items.ORES_TINY_LAPIS);
         this.copy(TinyOreTags.Blocks.ORES_TINY_REDSTONE, TinyOreTags.Items.ORES_TINY_REDSTONE);
 
+        this.copy(Tags.Blocks.ORES_COAL, Tags.Items.ORES_COAL);
+        this.copy(Tags.Blocks.ORES_COPPER, Tags.Items.ORES_COPPER);
+        this.copy(Tags.Blocks.ORES_DIAMOND, Tags.Items.ORES_DIAMOND);
+        this.copy(Tags.Blocks.ORES_EMERALD, Tags.Items.ORES_EMERALD);
+        this.copy(Tags.Blocks.ORES_GOLD, Tags.Items.ORES_GOLD);
+        this.copy(Tags.Blocks.ORES_IRON, Tags.Items.ORES_IRON);
+        this.copy(Tags.Blocks.ORES_LAPIS, Tags.Items.ORES_LAPIS);
+        this.copy(Tags.Blocks.ORES_REDSTONE, Tags.Items.ORES_REDSTONE);
+
         this.copy(TinyOreTags.Blocks.ORES_TINY, TinyOreTags.Items.ORES_TINY);
 
         this.copy(Tags.Blocks.ORES, Tags.Items.ORES);
+        this.copy(Tags.Blocks.ORE_RATES_SPARSE, Tags.Items.ORE_RATES_SPARSE);
+        this.copy(Tags.Blocks.ORES_IN_GROUND_STONE, Tags.Items.ORES_IN_GROUND_STONE);
+        this.copy(Tags.Blocks.ORES_IN_GROUND_DEEPSLATE, Tags.Items.ORES_IN_GROUND_DEEPSLATE);
     }
 }

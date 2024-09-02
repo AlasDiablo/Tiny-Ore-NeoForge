@@ -13,6 +13,7 @@ import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.*;
+import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.DEEPSLATE_TINY_DIAMOND_ORE;
 import static fr.alasdiablo.mods.ore.tiny.tag.TinyOreTags.Blocks.*;
 
 @SuppressWarnings("unchecked")
@@ -36,12 +37,32 @@ public class BlocksTagsProvider extends BlockTagsProvider {
         this.tag(ORES_TINY_LAPIS).add(TINY_LAPIS_ORE.get(), DEEPSLATE_TINY_LAPIS_ORE.get());
         this.tag(ORES_TINY_REDSTONE).add(TINY_REDSTONE_ORE.get(), DEEPSLATE_TINY_REDSTONE_ORE.get());
 
+        this.tag(Tags.Blocks.ORES_COAL).add(TINY_COAL_ORE.get(), DEEPSLATE_TINY_COAL_ORE.get());
+        this.tag(Tags.Blocks.ORES_COPPER).add(TINY_COPPER_ORE.get(), DEEPSLATE_TINY_COPPER_ORE.get());
+        this.tag(Tags.Blocks.ORES_DIAMOND).add(TINY_DIAMOND_ORE.get(), DEEPSLATE_TINY_DIAMOND_ORE.get());
+        this.tag(Tags.Blocks.ORES_EMERALD).add(TINY_EMERALD_ORE.get(), DEEPSLATE_TINY_EMERALD_ORE.get());
+        this.tag(Tags.Blocks.ORES_GOLD).add(TINY_GOLD_ORE.get(), DEEPSLATE_TINY_GOLD_ORE.get());
+        this.tag(Tags.Blocks.ORES_IRON).add(TINY_IRON_ORE.get(), DEEPSLATE_TINY_IRON_ORE.get());
+        this.tag(Tags.Blocks.ORES_LAPIS).add(TINY_LAPIS_ORE.get(), DEEPSLATE_TINY_LAPIS_ORE.get());
+        this.tag(Tags.Blocks.ORES_REDSTONE).add(TINY_REDSTONE_ORE.get(), DEEPSLATE_TINY_REDSTONE_ORE.get());
+
         this.tag(ORES_TINY).addTags(
                 ORES_TINY_COAL, ORES_TINY_COPPER, ORES_TINY_DIAMOND, ORES_TINY_EMERALD,
                 ORES_TINY_GOLD, ORES_TINY_IRON, ORES_TINY_LAPIS, ORES_TINY_REDSTONE
         );
 
         this.tag(Tags.Blocks.ORES).addTag(ORES_TINY);
+        this.tag(Tags.Blocks.ORE_RATES_SPARSE).addTag(ORES_TINY);
+        this.tag(Tags.Blocks.ORES_IN_GROUND_STONE).add(
+                TINY_COAL_ORE.get(), TINY_COPPER_ORE.get(), TINY_DIAMOND_ORE.get(),
+                TINY_EMERALD_ORE.get(), TINY_GOLD_ORE.get(), TINY_IRON_ORE.get(),
+                TINY_LAPIS_ORE.get(), TINY_REDSTONE_ORE.get()
+        );
+        this.tag(Tags.Blocks.ORES_IN_GROUND_DEEPSLATE).add(
+                DEEPSLATE_TINY_COAL_ORE.get(), DEEPSLATE_TINY_COPPER_ORE.get(), DEEPSLATE_TINY_DIAMOND_ORE.get(),
+                DEEPSLATE_TINY_EMERALD_ORE.get(), DEEPSLATE_TINY_GOLD_ORE.get(), DEEPSLATE_TINY_IRON_ORE.get(),
+                DEEPSLATE_TINY_LAPIS_ORE.get(), DEEPSLATE_TINY_REDSTONE_ORE.get()
+        );
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(
                 TINY_COAL_ORE.get(), DEEPSLATE_TINY_COAL_ORE.get(),

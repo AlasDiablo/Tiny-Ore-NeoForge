@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 1.0,
-  "group": "gold_nugget",
+  "group": "gold_ingot",
   "ingredient": {
     "item": "dio_tiny_ore:deepslate_tiny_gold_ore"
   },
   "result": {
     "count": 1,
-    "id": "minecraft:gold_nugget"
+    "id": "minecraft:gold_ingot"
   }
 }

@@ -1,5 +1,13 @@
-// 1.21.1	2024-08-23T13:55:15.4723043	Tags for minecraft:block mod id dio_tiny_ore
+// 1.21.1	2024-09-02T18:06:25.6044029	Tags for minecraft:block mod id dio_tiny_ore
 655b26e16fe2883ab3daaa1b5c6d69241efc7dc2 data/c/tags/block/ores.json
+5d2e31b96fa133b32c6243a4cfdfd6d7b6cae697 data/c/tags/block/ores/coal.json
+9a6cd3559abf78e26e2a7ecba526e1824a67b0a2 data/c/tags/block/ores/copper.json
+85a2431d791bed07b4cfdef4f9b140ffc91c4ce9 data/c/tags/block/ores/diamond.json
+2cdddf57f2e9984b250bcf9d0df16a3f39abe30f data/c/tags/block/ores/emerald.json
+0f31cdef05bc7b0f097d88e9d73ea35f7ac397a5 data/c/tags/block/ores/gold.json
+a8be22318e73baf0ed34b5d1889070b77c4caed2 data/c/tags/block/ores/iron.json
+3d052ad2e83aa7006348b7fb3bf0c042f351546e data/c/tags/block/ores/lapis.json
+5f085709fee42bb015f5bb0371a307695b401098 data/c/tags/block/ores/redstone.json
 b7d57706bb7f0f1a8e205647da078b328f94db7d data/c/tags/block/ores/tiny.json
 5d2e31b96fa133b32c6243a4cfdfd6d7b6cae697 data/c/tags/block/ores/tiny/coal.json
 9a6cd3559abf78e26e2a7ecba526e1824a67b0a2 data/c/tags/block/ores/tiny/copper.json
@@ -9,6 +17,9 @@ b7d57706bb7f0f1a8e205647da078b328f94db7d data/c/tags/block/ores/tiny.json
 a8be22318e73baf0ed34b5d1889070b77c4caed2 data/c/tags/block/ores/tiny/iron.json
 3d052ad2e83aa7006348b7fb3bf0c042f351546e data/c/tags/block/ores/tiny/lapis.json
 5f085709fee42bb015f5bb0371a307695b401098 data/c/tags/block/ores/tiny/redstone.json
+cfc0eb79ce22d8ccc3221ae54dcbf73b284ea462 data/c/tags/block/ores_in_ground/deepslate.json
+920e2581818c2081bd58946d6d41d5758d90795e data/c/tags/block/ores_in_ground/stone.json
+655b26e16fe2883ab3daaa1b5c6d69241efc7dc2 data/c/tags/block/ore_rates/sparse.json
 b813f650848f41bf5040ef4c6649d1c379d31674 data/minecraft/tags/block/mineable/pickaxe.json
 53e20fb1977de733e6b7fe8f0c2ecf36a3b1447a data/minecraft/tags/block/needs_iron_tool.json
 eeb062795fc5dc98e5e08c39efb20b4556d909c8 data/minecraft/tags/block/needs_stone_tool.json
