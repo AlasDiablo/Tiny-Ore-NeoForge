@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data;
+package fr.alasdiablo.mods.ore.tiny.data.lang;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import net.minecraft.data.PackOutput;

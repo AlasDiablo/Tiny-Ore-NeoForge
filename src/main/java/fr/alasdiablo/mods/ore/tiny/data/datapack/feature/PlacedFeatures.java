@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data.feature;
+package fr.alasdiablo.mods.ore.tiny.data.datapack.feature;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import fr.alasdiablo.mods.ore.tiny.TinyOreRegistries;
@@ -26,29 +26,29 @@ public class PlacedFeatures {
     public static final ResourceKey<PlacedFeature> ORE_TINY_LAPIS    = register(TinyOreRegistries.TINY_LAPIS_ORE);
     public static final ResourceKey<PlacedFeature> ORE_TINY_REDSTONE = register(TinyOreRegistries.TINY_REDSTONE_ORE);
 
-    public static final ResourceKey<PlacedFeature> ORE_TINY_COAL_EXTRA     = register(TinyOreRegistries.TINY_COAL_ORE + "_extra");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_COPPER_EXTRA   = register(TinyOreRegistries.TINY_COPPER_ORE + "_extra");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_DIAMOND_EXTRA  = register(TinyOreRegistries.TINY_DIAMOND_ORE + "_extra");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_EMERALD_EXTRA  = register(TinyOreRegistries.TINY_EMERALD_ORE + "_extra");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_GOLD_EXTRA     = register(TinyOreRegistries.TINY_GOLD_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_COAL_EXTRA        = register(TinyOreRegistries.TINY_COAL_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_COPPER_EXTRA      = register(TinyOreRegistries.TINY_COPPER_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_DIAMOND_EXTRA     = register(TinyOreRegistries.TINY_DIAMOND_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_EMERALD_EXTRA     = register(TinyOreRegistries.TINY_EMERALD_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_GOLD_EXTRA        = register(TinyOreRegistries.TINY_GOLD_ORE + "_extra");
     public static final ResourceKey<PlacedFeature> ORE_TINY_IRON_MOUNTAIN     = register(TinyOreRegistries.TINY_IRON_ORE + "_mountain");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_IRON_BIRCH_FOREST     = register(TinyOreRegistries.TINY_IRON_ORE + "_birch_forest");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_LAPIS_EXTRA    = register(TinyOreRegistries.TINY_LAPIS_ORE + "_extra");
-    public static final ResourceKey<PlacedFeature> ORE_TINY_REDSTONE_EXTRA = register(TinyOreRegistries.TINY_REDSTONE_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_IRON_BIRCH_FOREST = register(TinyOreRegistries.TINY_IRON_ORE + "_birch_forest");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_LAPIS_EXTRA       = register(TinyOreRegistries.TINY_LAPIS_ORE + "_extra");
+    public static final ResourceKey<PlacedFeature> ORE_TINY_REDSTONE_EXTRA    = register(TinyOreRegistries.TINY_REDSTONE_ORE + "_extra");
 
-    private static @NotNull PlacedFeature createPlacedFeature(
+    public static @NotNull PlacedFeature createPlacedFeature(
             Holder.Reference<ConfiguredFeature<?, ?>> configuredFeature, int count, HeightRangePlacement heightRange
     ) {
         return new PlacedFeature(configuredFeature, List.of(CountPlacement.of(count), InSquarePlacement.spread(), heightRange, BiomeFilter.biome()));
     }
 
-    private static @NotNull PlacedFeature createDefaultPlacedFeature(
+    public static @NotNull PlacedFeature createDefaultPlacedFeature(
             Holder.Reference<ConfiguredFeature<?, ?>> configuredFeature
     ) {
         return createPlacedFeature(configuredFeature, 8, HeightRangePlacement.uniform(VerticalAnchor.BOTTOM, VerticalAnchor.absolute(127)));
     }
 
-    private static @NotNull PlacedFeature createExtraPlacedFeature(
+    public static @NotNull PlacedFeature createExtraPlacedFeature(
             Holder.Reference<ConfiguredFeature<?, ?>> configuredFeature, int count, VerticalAnchor bottom, VerticalAnchor top
     ) {
         return createPlacedFeature(configuredFeature, count, HeightRangePlacement.triangle(bottom, top));

@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data;
+package fr.alasdiablo.mods.ore.tiny.data.model;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import net.minecraft.data.PackOutput;
@@ -10,7 +10,11 @@ import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.*;
 
 public class BlockStatesProvider extends BlockStateProvider {
     public BlockStatesProvider(PackOutput output, ExistingFileHelper exFileHelper) {
-        super(output, TinyOre.MOD_ID, exFileHelper);
+        this(output, TinyOre.MOD_ID, exFileHelper);
+    }
+
+    public BlockStatesProvider(PackOutput output, String modid, ExistingFileHelper exFileHelper) {
+        super(output, modid, exFileHelper);
     }
 
     @Override
@@ -34,7 +38,7 @@ public class BlockStatesProvider extends BlockStateProvider {
         this.simpleBlockWithItem(DEEPSLATE_TINY_REDSTONE_ORE.get());
     }
 
-    public void simpleBlockWithItem(Block block) {
+    protected void simpleBlockWithItem(Block block) {
         this.simpleBlockWithItem(block, this.cubeAll(block));
     }
 }

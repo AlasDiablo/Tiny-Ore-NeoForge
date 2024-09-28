@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data.feature;
+package fr.alasdiablo.mods.ore.tiny.data.datapack.feature;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import fr.alasdiablo.mods.ore.tiny.TinyOreRegistries;
@@ -20,8 +20,8 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 
 public class ConfiguredFeatures {
-    private static final RuleTest STONE_ORE_REPLACEABLES     = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
-    private static final RuleTest DEEPSLATE_ORE_REPLACEABLES = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+    public static final RuleTest STONE_ORE_REPLACEABLES     = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
+    public static final RuleTest DEEPSLATE_ORE_REPLACEABLES = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> ORE_TINY_COAL     = register(TinyOreRegistries.TINY_COAL_ORE);
     public static final ResourceKey<ConfiguredFeature<?, ?>> ORE_TINY_COPPER   = register(TinyOreRegistries.TINY_COPPER_ORE);
@@ -41,14 +41,14 @@ public class ConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> ORE_TINY_LAPIS_EXTRA    = register(TinyOreRegistries.TINY_LAPIS_ORE + "_extra");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ORE_TINY_REDSTONE_EXTRA = register(TinyOreRegistries.TINY_REDSTONE_ORE + "_extra");
 
-    private static @NotNull ConfiguredFeature<OreConfiguration, Feature<OreConfiguration>> createConfiguredFeature(
+    public static @NotNull ConfiguredFeature<OreConfiguration, Feature<OreConfiguration>> createConfiguredFeature(
             @NotNull DeferredBlock<Block> stoneOre,
             @NotNull DeferredBlock<Block> deepslateOre
     ) {
         return createConfiguredFeature(stoneOre, deepslateOre, 4);
     }
 
-    private static @NotNull ConfiguredFeature<OreConfiguration, Feature<OreConfiguration>> createConfiguredFeature(
+    public static @NotNull ConfiguredFeature<OreConfiguration, Feature<OreConfiguration>> createConfiguredFeature(
             @NotNull DeferredBlock<Block> stoneOre,
             @NotNull DeferredBlock<Block> deepslateOre,
             int size

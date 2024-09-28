@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data.loot;
+package fr.alasdiablo.mods.ore.tiny.data.loot.table;
 
 import fr.alasdiablo.mods.lib.api.data.loot.DioBlockLootSubProvider;
 import fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks;

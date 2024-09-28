@@ -1,7 +1,13 @@
 package fr.alasdiablo.mods.ore.tiny;
 
 import com.mojang.logging.LogUtils;
-import fr.alasdiablo.mods.ore.tiny.data.*;
+import fr.alasdiablo.mods.ore.tiny.data.datapack.DatapackEntriesProvider;
+import fr.alasdiablo.mods.ore.tiny.data.lang.LanguagesProvider;
+import fr.alasdiablo.mods.ore.tiny.data.loot.LootTablesProvider;
+import fr.alasdiablo.mods.ore.tiny.data.model.BlockStatesProvider;
+import fr.alasdiablo.mods.ore.tiny.data.recipe.RecipesProvider;
+import fr.alasdiablo.mods.ore.tiny.data.tag.BlocksTagsProvider;
+import fr.alasdiablo.mods.ore.tiny.data.tag.ItemsTagsProvider;
 import fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks;
 import fr.alasdiablo.mods.ore.tiny.registry.TinyOreCreativeTabs;
 import fr.alasdiablo.mods.ore.tiny.tag.TinyOreTags;

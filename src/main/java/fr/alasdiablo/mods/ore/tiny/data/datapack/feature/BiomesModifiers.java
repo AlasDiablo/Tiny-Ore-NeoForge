@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data.feature;
+package fr.alasdiablo.mods.ore.tiny.data.datapack.feature;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import fr.alasdiablo.mods.ore.tiny.TinyOreRegistries;
@@ -44,7 +44,7 @@ public class BiomesModifiers {
     public static final ResourceKey<BiomeModifier> ORE_TINY_REDSTONE_SWAMP    = register(TinyOreRegistries.TINY_REDSTONE_ORE + "_swap");
 
     @Contract(value = "_, _ -> new", pure = true)
-    private static BiomeModifiers.@NotNull AddFeaturesBiomeModifier createBiomeModifier(HolderSet<Biome> biomes, HolderSet<PlacedFeature> features) {
+    public static BiomeModifiers.@NotNull AddFeaturesBiomeModifier createBiomeModifier(HolderSet<Biome> biomes, HolderSet<PlacedFeature> features) {
         return new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes,
                 features,

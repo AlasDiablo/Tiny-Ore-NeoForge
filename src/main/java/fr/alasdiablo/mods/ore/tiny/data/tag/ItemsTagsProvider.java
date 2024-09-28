@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data;
+package fr.alasdiablo.mods.ore.tiny.data.tag;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import fr.alasdiablo.mods.ore.tiny.tag.TinyOreTags;

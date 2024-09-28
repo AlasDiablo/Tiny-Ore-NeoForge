@@ -1,4 +1,4 @@
-package fr.alasdiablo.mods.ore.tiny.data;
+package fr.alasdiablo.mods.ore.tiny.data.tag;
 
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import net.minecraft.core.HolderLookup;
@@ -13,7 +13,6 @@ import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.*;
-import static fr.alasdiablo.mods.ore.tiny.registry.TinyOreBlocks.DEEPSLATE_TINY_DIAMOND_ORE;
 import static fr.alasdiablo.mods.ore.tiny.tag.TinyOreTags.Blocks.*;
 
 @SuppressWarnings("unchecked")
