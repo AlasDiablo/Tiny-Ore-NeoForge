@@ -27,6 +27,7 @@ public class BlocksTagsProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(@NotNull HolderLookup.Provider pProvider) {
+        // Vanilla Ore
         this.tag(ORES_TINY_COAL).add(TINY_COAL_ORE.get(), DEEPSLATE_TINY_COAL_ORE.get());
         this.tag(ORES_TINY_COPPER).add(TINY_COPPER_ORE.get(), DEEPSLATE_TINY_COPPER_ORE.get());
         this.tag(ORES_TINY_DIAMOND).add(TINY_DIAMOND_ORE.get(), DEEPSLATE_TINY_DIAMOND_ORE.get());
@@ -45,9 +46,21 @@ public class BlocksTagsProvider extends BlockTagsProvider {
         this.tag(Tags.Blocks.ORES_LAPIS).add(TINY_LAPIS_ORE.get(), DEEPSLATE_TINY_LAPIS_ORE.get());
         this.tag(Tags.Blocks.ORES_REDSTONE).add(TINY_REDSTONE_ORE.get(), DEEPSLATE_TINY_REDSTONE_ORE.get());
 
+        // Modded Ore
+        this.tag(ORES_TINY_LEAD);
+        this.tag(ORES_TINY_NICKEL);
+        this.tag(ORES_TINY_SILVER);
+        this.tag(ORES_TINY_SULFUR);
+        this.tag(ORES_TINY_TIN);
+        this.tag(ORES_TINY_ZINC);
+
         this.tag(ORES_TINY).addTags(
+                // Vanilla Ore
                 ORES_TINY_COAL, ORES_TINY_COPPER, ORES_TINY_DIAMOND, ORES_TINY_EMERALD,
-                ORES_TINY_GOLD, ORES_TINY_IRON, ORES_TINY_LAPIS, ORES_TINY_REDSTONE
+                ORES_TINY_GOLD, ORES_TINY_IRON, ORES_TINY_LAPIS, ORES_TINY_REDSTONE,
+                // Modded Ore
+                ORES_TINY_LEAD, ORES_TINY_NICKEL, ORES_TINY_SILVER, ORES_TINY_SULFUR,
+                ORES_TINY_TIN, ORES_TINY_ZINC
         );
 
         this.tag(Tags.Blocks.ORES).addTag(ORES_TINY);

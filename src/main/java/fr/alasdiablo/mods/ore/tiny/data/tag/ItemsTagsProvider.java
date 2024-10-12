@@ -25,6 +25,7 @@ public class ItemsTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
+        // Vanilla Ore
         this.copy(TinyOreTags.Blocks.ORES_TINY_COAL, TinyOreTags.Items.ORES_TINY_COAL);
         this.copy(TinyOreTags.Blocks.ORES_TINY_COPPER, TinyOreTags.Items.ORES_TINY_COPPER);
         this.copy(TinyOreTags.Blocks.ORES_TINY_DIAMOND, TinyOreTags.Items.ORES_TINY_DIAMOND);
@@ -33,6 +34,14 @@ public class ItemsTagsProvider extends ItemTagsProvider {
         this.copy(TinyOreTags.Blocks.ORES_TINY_IRON, TinyOreTags.Items.ORES_TINY_IRON);
         this.copy(TinyOreTags.Blocks.ORES_TINY_LAPIS, TinyOreTags.Items.ORES_TINY_LAPIS);
         this.copy(TinyOreTags.Blocks.ORES_TINY_REDSTONE, TinyOreTags.Items.ORES_TINY_REDSTONE);
+        // Modded Ore
+        this.copy(TinyOreTags.Blocks.ORES_TINY_LEAD, TinyOreTags.Items.ORES_TINY_LEAD);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_NICKEL, TinyOreTags.Items.ORES_TINY_NICKEL);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_SILVER, TinyOreTags.Items.ORES_TINY_SILVER);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_SULFUR, TinyOreTags.Items.ORES_TINY_SULFUR);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_TIN, TinyOreTags.Items.ORES_TINY_TIN);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_ZINC, TinyOreTags.Items.ORES_TINY_ZINC);
+
 
         this.copy(Tags.Blocks.ORES_COAL, Tags.Items.ORES_COAL);
         this.copy(Tags.Blocks.ORES_COPPER, Tags.Items.ORES_COPPER);

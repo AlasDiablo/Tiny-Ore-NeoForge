@@ -1,3 +1,13 @@
+### 1.2.1
+
+- Add tags for modded ore
+  - Lead
+  - Nickel
+  - Silver
+  - Sulfur
+  - Tin
+  - Zinc
+
 ### 1.2.0
 
 - Refactor data generator

@@ -1,4 +1,4 @@
-// 1.21.1	2024-09-02T18:06:25.6008877	Tags for minecraft:item mod id dio_tiny_ore
+// 1.21.1	2024-10-12T10:56:55.3284424	Tags for minecraft:item mod id dio_tiny_ore
 655b26e16fe2883ab3daaa1b5c6d69241efc7dc2 data/c/tags/item/ores.json
 5d2e31b96fa133b32c6243a4cfdfd6d7b6cae697 data/c/tags/item/ores/coal.json
 9a6cd3559abf78e26e2a7ecba526e1824a67b0a2 data/c/tags/item/ores/copper.json
@@ -8,7 +8,7 @@
 a8be22318e73baf0ed34b5d1889070b77c4caed2 data/c/tags/item/ores/iron.json
 3d052ad2e83aa7006348b7fb3bf0c042f351546e data/c/tags/item/ores/lapis.json
 5f085709fee42bb015f5bb0371a307695b401098 data/c/tags/item/ores/redstone.json
-b7d57706bb7f0f1a8e205647da078b328f94db7d data/c/tags/item/ores/tiny.json
+64bea0aba8c5a028fb440a5d9b4ce66cce375b6b data/c/tags/item/ores/tiny.json
 5d2e31b96fa133b32c6243a4cfdfd6d7b6cae697 data/c/tags/item/ores/tiny/coal.json
 9a6cd3559abf78e26e2a7ecba526e1824a67b0a2 data/c/tags/item/ores/tiny/copper.json
 85a2431d791bed07b4cfdef4f9b140ffc91c4ce9 data/c/tags/item/ores/tiny/diamond.json
@@ -16,7 +16,13 @@ b7d57706bb7f0f1a8e205647da078b328f94db7d data/c/tags/item/ores/tiny.json
 0f31cdef05bc7b0f097d88e9d73ea35f7ac397a5 data/c/tags/item/ores/tiny/gold.json
 a8be22318e73baf0ed34b5d1889070b77c4caed2 data/c/tags/item/ores/tiny/iron.json
 3d052ad2e83aa7006348b7fb3bf0c042f351546e data/c/tags/item/ores/tiny/lapis.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores/tiny/lead.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores/tiny/nickel.json
 5f085709fee42bb015f5bb0371a307695b401098 data/c/tags/item/ores/tiny/redstone.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores/tiny/silver.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores/tiny/sulfur.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores/tiny/tin.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores/tiny/zinc.json
 cfc0eb79ce22d8ccc3221ae54dcbf73b284ea462 data/c/tags/item/ores_in_ground/deepslate.json
 920e2581818c2081bd58946d6d41d5758d90795e data/c/tags/item/ores_in_ground/stone.json
 655b26e16fe2883ab3daaa1b5c6d69241efc7dc2 data/c/tags/item/ore_rates/sparse.json

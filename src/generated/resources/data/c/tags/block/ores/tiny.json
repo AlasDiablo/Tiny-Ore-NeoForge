@@ -7,6 +7,12 @@
     "#c:ores/tiny/gold",
     "#c:ores/tiny/iron",
     "#c:ores/tiny/lapis",
-    "#c:ores/tiny/redstone"
+    "#c:ores/tiny/redstone",
+    "#c:ores/tiny/lead",
+    "#c:ores/tiny/nickel",
+    "#c:ores/tiny/silver",
+    "#c:ores/tiny/sulfur",
+    "#c:ores/tiny/tin",
+    "#c:ores/tiny/zinc"
   ]
 }
