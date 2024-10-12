@@ -1,3 +1,8 @@
+### 1.2.2
+
+- Add missing tags for modded ore
+  - Add base ores tags and not only tiny ores tags
+
 ### 1.2.1
 
 - Add tags for modded ore

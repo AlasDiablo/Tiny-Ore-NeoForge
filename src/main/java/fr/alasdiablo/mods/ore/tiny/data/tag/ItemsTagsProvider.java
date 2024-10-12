@@ -34,14 +34,6 @@ public class ItemsTagsProvider extends ItemTagsProvider {
         this.copy(TinyOreTags.Blocks.ORES_TINY_IRON, TinyOreTags.Items.ORES_TINY_IRON);
         this.copy(TinyOreTags.Blocks.ORES_TINY_LAPIS, TinyOreTags.Items.ORES_TINY_LAPIS);
         this.copy(TinyOreTags.Blocks.ORES_TINY_REDSTONE, TinyOreTags.Items.ORES_TINY_REDSTONE);
-        // Modded Ore
-        this.copy(TinyOreTags.Blocks.ORES_TINY_LEAD, TinyOreTags.Items.ORES_TINY_LEAD);
-        this.copy(TinyOreTags.Blocks.ORES_TINY_NICKEL, TinyOreTags.Items.ORES_TINY_NICKEL);
-        this.copy(TinyOreTags.Blocks.ORES_TINY_SILVER, TinyOreTags.Items.ORES_TINY_SILVER);
-        this.copy(TinyOreTags.Blocks.ORES_TINY_SULFUR, TinyOreTags.Items.ORES_TINY_SULFUR);
-        this.copy(TinyOreTags.Blocks.ORES_TINY_TIN, TinyOreTags.Items.ORES_TINY_TIN);
-        this.copy(TinyOreTags.Blocks.ORES_TINY_ZINC, TinyOreTags.Items.ORES_TINY_ZINC);
-
 
         this.copy(Tags.Blocks.ORES_COAL, Tags.Items.ORES_COAL);
         this.copy(Tags.Blocks.ORES_COPPER, Tags.Items.ORES_COPPER);
@@ -51,6 +43,22 @@ public class ItemsTagsProvider extends ItemTagsProvider {
         this.copy(Tags.Blocks.ORES_IRON, Tags.Items.ORES_IRON);
         this.copy(Tags.Blocks.ORES_LAPIS, Tags.Items.ORES_LAPIS);
         this.copy(Tags.Blocks.ORES_REDSTONE, Tags.Items.ORES_REDSTONE);
+
+        // Modded Ore
+        this.copy(TinyOreTags.Blocks.ORES_TINY_LEAD, TinyOreTags.Items.ORES_TINY_LEAD);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_NICKEL, TinyOreTags.Items.ORES_TINY_NICKEL);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_SILVER, TinyOreTags.Items.ORES_TINY_SILVER);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_SULFUR, TinyOreTags.Items.ORES_TINY_SULFUR);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_TIN, TinyOreTags.Items.ORES_TINY_TIN);
+        this.copy(TinyOreTags.Blocks.ORES_TINY_ZINC, TinyOreTags.Items.ORES_TINY_ZINC);
+
+        this.copy(TinyOreTags.Blocks.ORES_LEAD, TinyOreTags.Items.ORES_LEAD);
+        this.copy(TinyOreTags.Blocks.ORES_NICKEL, TinyOreTags.Items.ORES_NICKEL);
+        this.copy(TinyOreTags.Blocks.ORES_SILVER, TinyOreTags.Items.ORES_SILVER);
+        this.copy(TinyOreTags.Blocks.ORES_SULFUR, TinyOreTags.Items.ORES_SULFUR);
+        this.copy(TinyOreTags.Blocks.ORES_TIN, TinyOreTags.Items.ORES_TIN);
+        this.copy(TinyOreTags.Blocks.ORES_ZINC, TinyOreTags.Items.ORES_ZINC);
+
 
         this.copy(TinyOreTags.Blocks.ORES_TINY, TinyOreTags.Items.ORES_TINY);
 

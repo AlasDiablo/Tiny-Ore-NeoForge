@@ -25,6 +25,13 @@ public class TinyOreTags {
         public static final TagKey<Item> ORES_TINY_REDSTONE = commonTag("ores/tiny/redstone");
 
         // Modded Ore
+        public static final TagKey<Item> ORES_LEAD   = commonTag("ores/lead");
+        public static final TagKey<Item> ORES_NICKEL = commonTag("ores/nickel");
+        public static final TagKey<Item> ORES_SILVER = commonTag("ores/silver");
+        public static final TagKey<Item> ORES_SULFUR = commonTag("ores/sulfur");
+        public static final TagKey<Item> ORES_TIN    = commonTag("ores/tin");
+        public static final TagKey<Item> ORES_ZINC   = commonTag("ores/zinc");
+
         public static final TagKey<Item> ORES_TINY_LEAD   = commonTag("ores/tiny/lead");
         public static final TagKey<Item> ORES_TINY_NICKEL = commonTag("ores/tiny/nickel");
         public static final TagKey<Item> ORES_TINY_SILVER = commonTag("ores/tiny/silver");
@@ -54,6 +61,13 @@ public class TinyOreTags {
         public static final TagKey<Block> ORES_TINY_REDSTONE = commonTag("ores/tiny/redstone");
 
         // Modded Ore
+        public static final TagKey<Block> ORES_LEAD   = commonTag("ores/lead");
+        public static final TagKey<Block> ORES_NICKEL = commonTag("ores/nickel");
+        public static final TagKey<Block> ORES_SILVER = commonTag("ores/silver");
+        public static final TagKey<Block> ORES_SULFUR = commonTag("ores/sulfur");
+        public static final TagKey<Block> ORES_TIN    = commonTag("ores/tin");
+        public static final TagKey<Block> ORES_ZINC   = commonTag("ores/zinc");
+
         public static final TagKey<Block> ORES_TINY_LEAD   = commonTag("ores/tiny/lead");
         public static final TagKey<Block> ORES_TINY_NICKEL = commonTag("ores/tiny/nickel");
         public static final TagKey<Block> ORES_TINY_SILVER = commonTag("ores/tiny/silver");

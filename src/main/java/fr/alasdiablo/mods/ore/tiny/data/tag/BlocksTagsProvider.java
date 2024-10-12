@@ -54,6 +54,13 @@ public class BlocksTagsProvider extends BlockTagsProvider {
         this.tag(ORES_TINY_TIN);
         this.tag(ORES_TINY_ZINC);
 
+        this.tag(ORES_LEAD);
+        this.tag(ORES_NICKEL);
+        this.tag(ORES_SILVER);
+        this.tag(ORES_SULFUR);
+        this.tag(ORES_TIN);
+        this.tag(ORES_ZINC);
+
         this.tag(ORES_TINY).addTags(
                 // Vanilla Ore
                 ORES_TINY_COAL, ORES_TINY_COPPER, ORES_TINY_DIAMOND, ORES_TINY_EMERALD,
@@ -63,8 +70,15 @@ public class BlocksTagsProvider extends BlockTagsProvider {
                 ORES_TINY_TIN, ORES_TINY_ZINC
         );
 
-        this.tag(Tags.Blocks.ORES).addTag(ORES_TINY);
+        this.tag(Tags.Blocks.ORES).addTags(
+                // Tiny Ore
+                ORES_TINY,
+                // Modded Ore
+                ORES_LEAD, ORES_NICKEL, ORES_SILVER, ORES_SULFUR, ORES_TIN, ORES_ZINC
+        );
+
         this.tag(Tags.Blocks.ORE_RATES_SPARSE).addTag(ORES_TINY);
+
         this.tag(Tags.Blocks.ORES_IN_GROUND_STONE).add(
                 TINY_COAL_ORE.get(), TINY_COPPER_ORE.get(), TINY_DIAMOND_ORE.get(),
                 TINY_EMERALD_ORE.get(), TINY_GOLD_ORE.get(), TINY_IRON_ORE.get(),
