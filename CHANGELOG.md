@@ -1,3 +1,7 @@
+### 2.0.0
+
+- Update to 1.21.8
+
 ### 1.2.2
 
 - Add missing tags for modded ore
