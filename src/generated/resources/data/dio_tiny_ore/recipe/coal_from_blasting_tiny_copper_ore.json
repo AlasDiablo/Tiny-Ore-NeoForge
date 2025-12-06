@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "tiny_copper_ore",
+  "ingredient": "dio_tiny_ore:tiny_copper_ore",
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
+}

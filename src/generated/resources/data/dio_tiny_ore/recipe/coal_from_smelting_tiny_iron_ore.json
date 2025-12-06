@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "tiny_iron_ore",
+  "ingredient": "dio_tiny_ore:tiny_iron_ore",
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
+}

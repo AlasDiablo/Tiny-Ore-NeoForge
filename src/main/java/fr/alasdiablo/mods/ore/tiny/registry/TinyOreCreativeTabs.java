@@ -1,6 +1,6 @@
 package fr.alasdiablo.mods.ore.tiny.registry;
 
-import fr.alasdiablo.mods.lib.api.item.GroundCreativeModeTab;
+import fr.alasdiablo.mods.lib.item.GroundCreativeModeTab;
 import fr.alasdiablo.mods.ore.tiny.TinyOre;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

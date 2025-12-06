@@ -1,10 +1,12 @@
 package fr.alasdiablo.mods.ore.tiny.block;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.util.valueproviders.IntProvider;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RedStoneOreBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -18,8 +20,9 @@ import org.jetbrains.annotations.Nullable;
 public class DeepslateTinyRedStoneOreBlock extends RedStoneOreBlock {
     private final IntProvider xpRange;
 
-    public DeepslateTinyRedStoneOreBlock(IntProvider xpRange) {
+    public DeepslateTinyRedStoneOreBlock(IntProvider xpRange, ResourceKey<Block> id) {
         super(Properties.of()
+                .setId(id)
                       .mapColor(MapColor.DEEPSLATE)
                       .instrument(NoteBlockInstrument.BASEDRUM)
                       .requiresCorrectToolForDrops()

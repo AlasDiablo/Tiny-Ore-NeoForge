@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "deepslate_tiny_gold_ore",
+  "ingredient": "dio_tiny_ore:deepslate_tiny_gold_ore",
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
+}
